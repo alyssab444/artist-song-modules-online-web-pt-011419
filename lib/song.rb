@@ -10,6 +10,7 @@ class Song
   include Memorable::InstanceMethods
   extend Findable::ClassMethods 
   include Paramable::InstanceMethods
+  
   def initialize
     self.class.all<< self
   end
