@@ -6,8 +6,9 @@ class Artist
   attr_reader :song
   @@artists = []
   
-   extend Memorable
-   extend Findable 
+  extend Memorable::ClassMethods 
+  extend Findable::ClassMethods 
+
 
   def initialize
     @@artists << self
