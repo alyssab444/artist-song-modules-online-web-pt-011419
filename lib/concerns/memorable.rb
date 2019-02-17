@@ -1,5 +1,4 @@
-require_relative '../lib/artist.rb'
-require_relative '../lib/song.rb'
+
 module Memorable
  
     def self.reset_all
